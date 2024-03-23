@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -9,18 +9,21 @@ body {
 .navigation {
 }
 .header-title {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: #4d5ae5;
 }
 .header-title-span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .navigation-list {
 }
+
 .navigation-list-unit {
   font-weight: 500;
   font-size: 16px;
@@ -31,7 +34,13 @@ body {
   text-decoration: none;
   color: #2e2f42;
 }
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: #404bbf;
+}
 .contacts {
+  font-style: normal;
 }
 .contacts-list {
 }
@@ -46,6 +55,11 @@ body {
   text-decoration: none;
   color: #434455;
 }
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: #404bbf;
+}
+
 .main {
 }
 .page-hero {
@@ -54,12 +68,13 @@ body {
 .page-hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .page-hero-button {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -67,6 +82,12 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
 }
+.page-hero-button:hover,
+.page-hero-button:focus {
+  color: #404bbf;
+  cursor: pointer;
+}
+
 .about {
 }
 .about-title {
@@ -91,9 +112,10 @@ body {
   background-color: #f4f4fd;
 }
 .team-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -101,10 +123,9 @@ body {
 .team-list {
 }
 .team-list-unit {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
+
 .team-list-unit-title {
   font-weight: 500;
   font-size: 20px;
@@ -124,9 +145,10 @@ body {
 .portfolio {
 }
 .portfolio-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -140,17 +162,18 @@ body {
 }
 
 .page-footer-title {
+    font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
   text-decoration: none;
 }
 
 .footer-title-span {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-p {
