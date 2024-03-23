@@ -84,7 +84,7 @@ body {
 }
 .page-hero-button:hover,
 .page-hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
   cursor: pointer;
 }
 
